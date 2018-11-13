@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node pkg="cv3d_hangover" type="cv3d_hangover" name="cv3d_hangover"/>
+	<node pkg="tf" type="static_transform_publisher" name="base_camera_tf" args="0.035 0 -0.08 -1.57 0 -1.57 base_link camera_link 100" />
+</launch>
